@@ -7,7 +7,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { Button, InputLabel } from "@mui/material";
-import Footer from "../footer/footer";
+import Footer from "../footer/Footer";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useLocation } from "react-router-dom";

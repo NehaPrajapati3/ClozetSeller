@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { MdFileDownload } from "react-icons/md";
 import { LuEye } from "react-icons/lu";
 import { Button, Switch } from "@mui/material";
-import Footer from "../footer/footer";
+import Footer from "../footer/Footer";
 import { useGetOrders } from "../files";
 import { useSelector } from "react-redux";
 import { selectOrders } from "../files";
