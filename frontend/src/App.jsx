@@ -57,8 +57,8 @@ import SubCategory from "./pages/subCategory/SubCategory.jsx";
 import SubCategoryList from "./pages/subCategoryList/SubCategoryList.jsx";
 import useVerifyAuth from "./hooks/useVerifyAuth.jsx";
 import HiddenProductList from "./pages/hiddenProductList/HiddenProductList.jsx";
-import Review from "./pages/review/Review.jsx"; 
-import Chat from "./pages/chat/Chat.jsx"; 
+// import Review from "./pages/review/Review.jsx"; 
+// import Chat from "./pages/chat/Chat.jsx"; 
 
 const router = createBrowserRouter([
   {
@@ -153,12 +153,12 @@ const router = createBrowserRouter([
       { path: "/subCategoryList",
          element: <SubCategoryList />
          },
-      { path: "/review",
-         element: <Review />
-         },
-      { path: "/chat", 
-        element: <Chat />
-       },
+      // { path: "/review",
+      //    element: <Review />
+      //    },
+      // { path: "/chat", 
+      //   element: <Chat />
+      //  },
     ],
   },
   {
