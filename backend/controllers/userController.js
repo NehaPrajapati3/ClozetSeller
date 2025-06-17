@@ -103,7 +103,8 @@ export const loginseller = async (req, res) => {
       .cookie("token", token, {
         maxAge: 1 * 24 * 60 * 60 * 1000,
         httpOnly: true,
-        sameSite: "strict",
+        secure: true,
+        sameSite: "None",
       })
       .json({
         _id: user._id,
