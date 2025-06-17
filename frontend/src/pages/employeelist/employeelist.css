@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.employeelist-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+.employeelist-section .employeelist-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: orange; */
+}
+.employeelist-header .employeelist-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.employeelist-top .employeelist-heading{
+    width: 280px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.employeelist-heading .employee-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employee-icon svg{
+    font-size: 2.2em;
+    color: #232929;
+}
+.employeelist-heading h2{
+    font-weight: 550;
+    color: #232929;
+}
+.employeelist-heading .employee-count{
+    width: 25px;
+    height: 25px;
+    background-color: #cedae5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.add-btn-employee{
+    width: 300px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.add-btn-employee button{
+    width: 250px;
+    height: 40px;
+    background-color: #7d7474;
+    gap: 5px;
+    color: #fff;
+    font-size: 1em;
+
+}
+.add-btn-employee button .a-btn-e-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-btn-e-icon svg{
+    font-size: 1.5em;
+}
+.employeelist-header .employeelist-box{
+    width: 100%;
+    height: 600px;
+    /* background-color: blanchedalmond; */
+    padding: 15px;
+}
+.employeelist-box .employeelist-table{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0.5px #918b8b;
+}
+.employeelist-table .employee-table-top{
+    width: 100%;
+    height: 70px;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: flex-end;
+}
+.employee-table-top .s-btn{
+    width: 440px;
+    height: 100%;
+    /* background-color: rgb(81, 42, 99); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.employee-table-top .s-btn .s-input{
+    width: 300px;
+    height: 40px;
+     /* background-color: rgb(179, 108, 187);  */
+    display: flex;
+   
+    
+}
+.employee-table-top .s-btn .s-input input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    background-color: #ebf5ff;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 10px;
+   box-shadow:  0px 0px 3px 0.5px #bcb6b6;
+   font-size: 1em;
+   
+}
+.employee-table-top .s-btn .s-input .icon-s{
+    width: 40px;
+    height: 100%;
+    background-color: #7d7474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.employee-table-top .s-btn .s-input .icon-s svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+.employee-table-top .s-btn .ex-select{
+    width: 100px;
+    height: 40px;
+    
+}
+.employee-table-top .s-btn .ex-select .e-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #232929;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #fff;
+    
+}
+.e-btn svg{
+    color: #232929;
+}
+.employeelist-table .main-elist-table{
+    width: 100%;
+    height: 500px;
+    /* background-color: #7d7474; */
+    overflow-y: scroll;
+}
+.main-elist-table::-webkit-scrollbar{
+    width: 0px;
+}
+.main-elist-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+   z-index: 3;
+    color: #232929;
+   
+}
+
+.main-elist-table table tbody tr td{
+    text-align: center;
+}
+.ac-box button{
+    min-width: 30px;
+   width: 35px;
+   height: 35px;
+   border: 1px solid brown;
+   margin: 10px;
+}
+
+.ac-box button.hipen{
+    background-color: #b9e880;
+    
+}
+
+.ac-box button.hipen svg{
+    color: #232929;
+}
+
+

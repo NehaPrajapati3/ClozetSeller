@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.collect{
+    width: 100%;
+    height: 100%;
+     background-color: #fff; 
+    padding: 15px;
+    overflow-y: scroll;
+}
+.collect::-webkit-scrollbar{
+    width: 0px;
+}
+.collect .collect-section{
+    width: 100%;
+    height: 155%;
+     /* background-color: rgb(186, 13, 42);  */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+
+    
+}
+.collect .collect-section .top-heading{
+    width: 100%;
+    height: 40px;
+    /* background-color: chartreuse; */
+}
+.collect .collect-section .top-heading .cash-heading{
+    width: 400px;
+    height: 100%;
+     /* background-color: cadetblue;  */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.collect .collect-section .top-heading .cash-heading span{
+    width: 30px;
+    height: 30px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collect .collect-section .top-heading .cash-heading span svg{
+    font-size: 2em;
+    color: #232929;
+   
+   
+}
+.collect .collect-section .top-heading .cash-heading h2{
+   font-weight: 600;
+   color: #232929;
+}
+.collect .collect-section .add-cash{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+      box-shadow:  0px 0px 5px #aeaeb3;
+     border-radius: 10px;
+}
+.collect .collect-section .add-cash .add1{
+    width: 100%;
+    height: 100px;
+    /* background-color: darkturquoise; */
+    display: flex;
+    justify-content: space-around;
+}
+
+ .add1 .c-from{
+    width: 500px;
+    height: 100%;
+    /* background-color: cornsilk; */
+ }
+ .add1 .c-from .from{
+    width: 150px;
+    height: 40px;
+    /* background-color: chartreuse; */
+    line-height: 50px;
+    
+ }
+ .add1 .c-from .from h3{
+    margin-left: 30px;
+    color: #232929;
+    font-size: 1em;
+ }
+ .add1 .c-from .d-man{
+    width: 100%;
+    height: 40px;
+    /* background-color: #000000;
+     */
+
+    
+ }
+ .add1 .c-from .d-man .select-menu{
+    width: 450px;
+    height: 100%;
+     /* background-color: rgb(62, 97, 28);  */
+     
+    
+    
+    
+    
+ }
+ 
+ .add1 .c-from .d-man .select-menu .s-bg{
+    color: #232929;
+   
+ }
+ .collect .collect-section .add-cash .add2{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(228, 239, 239); */
+    display: flex;
+    justify-content: space-around;
+}
+.add2 .c-from{
+    width: 500px;
+    height: 100%;
+    /* background-color: cornsilk; */
+ }
+ .add2 .c-from .from{
+    width: 50%;
+    height: 40px;
+    /* background-color: chartreuse; */
+    line-height: 50px;
+    
+ }
+ .add2 .c-from .from h3{
+    margin-left: 30px;
+    color: #232929;
+    font-size: 1em;
+ }
+ .add2 .c-from .d-man{
+    width: 100%;
+    height: 40px;
+     /* background-color: yellow;  */
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .add2 .c-from .d-man input{
+    width: 450px;
+    height: 100%;
+    border: 0px;
+    outline: none;
+   
+    box-shadow: inset 0 0 5px rgba(149, 149, 167, 0.92);
+
+   
+   padding-left: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+   
+    
+
+ }
+
+ .collect .collect-section .add-cash .add3{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(228, 239, 239); */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.collect .collect-section .add-cash .add3 .c-btn{
+    width: 350px;
+    height: 50px;
+    /* background-color: chocolate; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.collect .collect-section .add-cash .add3 .c-btn .r-btn{
+    width: 120px;
+    height: 40px;
+    background-color: #cbd4d2;
+    color: black;
+    font-weight: 600;
+}
+.collect .collect-section .add-cash .add3 .c-btn .m-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #747373;
+    color: #fff;
+    font-weight: 550;
+}
+/* table */
+ 
+.collect .collect-section .trans-history{
+    width: 100%;
+    height: 650px;
+    background-color: #fff;  
+    box-shadow:  0px 0px 5px #7f7f8b;
+   
+    border-radius: 10px;
+   
+    
+   
+}
+.collect .collect-section .trans-history .t-top{
+    width: 100%;
+    height: 50px;
+     /* background-color: chartreuse;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collect .collect-section .trans-history .t-top .t-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: fuchsia; */
+    display: flex;
+    line-height: 50px;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.collect .collect-section .trans-history .t-top .t-heading h3{
+    font-weight: 600;
+    color: #232929;
+}
+.collect .collect-section .trans-history .t-top .t-heading span{
+    width: 20px;
+    height: 40%;
+    background-color: #eeeef4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.collect .collect-section .trans-history .t-top .t-heading span p{
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #000000;
+}
+.collect .collect-section .trans-history .t-top .s-btn{
+    width: 480px;
+    height: 100%;
+    /* background-color: rgb(221, 187, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.collect .collect-section .trans-history .t-top .s-btn .s-input{
+    width: 300px;
+    height: 40px;
+     /* background-color: rgb(179, 108, 187);  */
+    display: flex;
+   
+    
+}
+.collect .collect-section .trans-history .t-top .s-btn .s-input input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    background-color: #ebf5ff;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 10px;
+   box-shadow:  0px 0px 3px 0.5px #bcb6b6;
+   font-size: 1em;
+   
+}
+.collect .collect-section .trans-history .t-top .s-btn .s-input .icon-s{
+    width: 40px;
+    height: 100%;
+    background-color: #7d7474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.collect .collect-section .trans-history .t-top .s-btn .s-input .icon-s svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+.collect .collect-section .trans-history .t-top .s-btn .ex-select{
+    width: 100px;
+    height: 40px;
+    
+}
+.collect .collect-section .trans-history .t-top .s-btn .ex-select .e-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #000000;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #fff;
+    
+}
+.collect .collect-section .trans-history .history-table{
+    width: 100%;
+    height: 600px;
+    background-color: #fff; 
+    overflow-y: scroll;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.collect .collect-section .trans-history .history-table::-webkit-scrollbar{
+    width: 0px;
+}
+.collect .collect-section .trans-history .history-table table tbody tr td{
+    padding: 10px;
+    color: #232929;
+}
+.collect .collect-section .trans-history .history-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+   z-index: 3;
+    color: #232929;
+}
+
+.ac-box button{
+    min-width: 30px;
+   width: 35px;
+   height: 35px;
+   border: 1px solid brown;
+   margin: 10px;
+}
+
+.ac-box button.hipen{
+    background-color: #b9e880;
+    
+}
+
+.ac-box button.hipen svg{
+    color: #232929;
+}

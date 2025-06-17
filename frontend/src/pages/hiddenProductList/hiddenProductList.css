@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.product-section{
+    width: 100%;
+    height: 100%;
+    /* background-color:orange ; */
+    padding: 15px;
+}
+.product-section .product-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    overflow-y: scroll;
+}
+.product-section .product-header::-webkit-scrollbar{
+    width: 0px;
+}
+.product-header .product-top{
+    width: 100%;
+    height: 60px;
+    /* background-color: cadetblue; */
+}
+.product-top .product-heading{
+    width: 260px;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-header .product-list-icon{
+    width: 50px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list-icon svg{
+   font-size: 2.5em;
+
+}
+.product-heading .top-heading{
+    width: 160px;
+    height: 100%;
+    /* background-color: chocolate; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.product-heading .top-heading h2{
+    font-weight: 600;
+   color: #232929;
+}
+.product-heading .top-heading .p-list{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #cfcfde;
+    border-radius: 6px;
+   font-weight: 600;
+}
+.product-header .search-list-box{
+    width: 100%;
+    height: 150px;
+    /* background-color: yellow; */
+    padding: 15px;
+}
+.search-list-box .main-box{
+    width: 100%;
+    height: 100%;
+    box-shadow:  0px 0px 5px #7f7f8b;
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.main-box .top-box{
+    width: 200px;
+    height: 40px;
+    /* background-color: #7adea5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-box .top-box h2{
+    font-weight: 600;
+   color: #232929;
+}
+.main-box .category-item-list{
+    width: 100%;
+    height: 80px;
+    /* background-color: #84c51c; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.category-item-list .item-select-box{
+    width: 460px;
+    height: 80px;
+    /* background-color: rebeccapurple; */
+    
+}
+.category-item-list .item-select-box .f-bg{
+    border-radius: 5px;
+}
+.product-section .product-header .list-table-section{
+    width: 100%;
+    height: 650px;
+    /* background-color: #55a7a7; */
+    padding: 15px;
+}
+.list-table-section .main-list-table-section-box{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px #7f7f8b;
+}
+.main-list-table-section-box .main-list-s-top{
+    width: 100%;
+    height: 70px;
+     /* background-color: chartreuse;  */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-list-table-section-box .main-list-s-top .s-btn{
+    width: 580px;
+    height: 100%;
+    /* background-color: rgb(221, 187, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.main-list-table-section-box .main-list-s-top .s-btn .s-input{
+    width: 300px;
+    height: 40px;
+     /* background-color: rgb(179, 108, 187);  */
+    display: flex;
+   
+    
+}
+.main-list-table-section-box .main-list-s-top .s-btn .s-input input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    background-color: #ebf5ff;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 10px;
+   box-shadow:  0px 0px 3px 0.5px #bcb6b6;
+   font-size: 0.8em;
+   
+}
+.main-list-table-section-box .main-list-s-top .s-btn .s-input .icon-s{
+    width: 40px;
+    height: 100%;
+    background-color: #7d7474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main-list-table-section-box .main-list-s-top .s-btn .s-input .icon-s svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+.main-list-table-section-box .main-list-s-top .s-btn .ex-select{
+    width: 200px;
+    height: 40px;
+    
+}
+.main-list-table-section-box .main-list-s-top .s-btn .ex-select .e-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #ffff;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #7d7474;
+    
+}
+.e-btn .e-add-btn{
+    width: 25px;
+    height: 25px;
+    /* background-color: #232929; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e-add-btn svg{
+    font-size: 1.3em;
+}
+.main-list-table-section-box .table-section{
+    width: 100%;
+    height: 550px;
+    /* background-color: #fff;  */
+    overflow-y: scroll;
+    /* border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    
+}
+.main-list-table-section-box .table-section::-webkit-scrollbar{
+    width: 0px;
+}
+.main-list-table-section-box .table-section table tbody tr td{
+    padding-left: 10px;
+    color: #232929;
+    
+
+   
+}
+.main-list-table-section-box .table-section table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+   z-index: 2;
+    color: #232929;
+}
+.dit-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.main-list-table-section-box .table-section table tbody tr .dit-img .fd-img{
+    width: 50px;
+    height: 50px;
+    /* background-color: yellow; */
+}
+.fd-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dit-img .fed-heading{
+    width: 100px;
+    height: 30px;
+    /* background-color: #7d7474; */
+    
+}
+.dit-img .fed-heading h3{
+    font-size: 1.2em;
+}
+.ac-box button{
+    min-width: 35px;
+   width: 35px;
+   height: 40px;
+   border: 1px solid brown;
+   margin: 10px;
+}
+.ac-box button svg{
+    font-size: 1.3em;
+    color: green;
+}
+.ac-box button.hipen{
+    background-color: #dfecf7;
+}
+.ac-box button.hipen svg{
+    color: #519286;
+    
+}
+
+   

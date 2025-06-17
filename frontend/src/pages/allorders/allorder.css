@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+.order-section{
+    width: 100%;
+    height: 100%;
+   background-color: #fff;
+    padding: 10px;
+}
+.order-section .order-header{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    /* background-color: burlywood; */
+}
+.order-header .order-top{
+    width: 100%;
+    height: 60px;
+    /* background-color: cadetblue; */
+}
+.order-top .order-heading{
+    width: 260px;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-header .allorder-img{
+    width: 50px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allorder-img img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+
+}
+.order-heading .top-heading{
+    width: 160px;
+    height: 100%;
+    /* background-color: chocolate; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.order-heading .top-heading h2{
+    font-weight: 600;
+   color: #232929;
+}
+.order-heading .top-heading .o-list{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #cfcfde;
+    border-radius: 6px;
+   font-weight: 600;
+}
+/* order-detail-table */
+
+.order-table{
+    width: 100%;
+    height: 600px;
+    /* background-color: orange ; */
+    padding: 10px;
+}
+.order-table .order-table-section{
+    width: 100%;
+    height: 100%;
+    box-shadow:  0px 0px 5px #7f7f8b;
+   background-color: #fff;
+    border-radius: 10px;
+}
+.order-table .order-table-section .tb-or-top{
+    width: 100%;
+    height: 70px;
+    /* background-color: rgb(138, 92, 180); */
+    display: flex;
+    justify-content: end;
+}
+.order-table .order-table-section .tb-or-top .s-btn{
+    width: 480px;
+    height: 100%;
+    /* background-color: rgb(221, 187, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.order-table .order-table-section .tb-or-top .s-btn .s-input{
+    width: 300px;
+    height: 40px;
+     /* background-color: rgb(179, 108, 187);  */
+    display: flex;
+   
+    
+}
+.order-table .order-table-section .tb-or-top .s-btn .s-input input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: 0px;
+    background-color: #ebf5ff;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 10px;
+   box-shadow:  0px 0px 3px 0.5px #bcb6b6;
+   font-size: 1em;
+   
+}
+.order-table .order-table-section .tb-or-top .s-btn .s-input .icon-s{
+    width: 40px;
+    height: 100%;
+    background-color: #7d7474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.order-table .order-table-section .tb-or-top .s-btn .s-input .icon-s svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+.order-table .order-table-section .tb-or-top .s-btn .ex-select{
+    width: 100px;
+    height: 40px;
+    
+}
+.order-table .order-table-section .tb-or-top .s-btn .ex-select .e-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #000000;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #fff;
+    
+}
+.order-table .order-table-section .main-or-table{
+    width: 100%;
+    height: 510px;
+    /* background-color: #fff; */
+    overflow-y: scroll;
+}
+.order-table .order-table-section .main-or-table::-webkit-scrollbar{
+    width: 0px;
+}
+.order-table .order-table-section .main-or-table table tbody tr td{
+    padding: 10px;
+    color: #232929;
+}
+.order-table .order-table-section .main-or-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+  z-index: 3;
+    color: #232929;
+}
+.ac-box button{
+    min-width: 30px;
+   width: 35px;
+   height: 35px;
+   border: 1px solid brown;
+   margin: 10px;
+}
+
+.ac-box button.hipen{
+    background-color: #b9e880;
+    
+}
+
+.ac-box button.hipen svg{
+    color: #232929;
+}

@@ -1,0 +1,50 @@
+
+/* reply section box */
+
+.reply-section-review{
+    width: 100%;
+    height: 100vh;
+    background-color: #3f4d4d64;
+   
+    position: relative;
+    position: fixed;
+   
+    z-index: 8;
+}
+.reply-section-review .reply-cart{
+    width: 450px;
+    height: 300px;
+    background-color: #c4c78f;
+    position: absolute;
+    left: 25%;
+    z-index: 9;
+    border-radius: 10px;
+}
+.reply-section-review .reply-cart .reply-cart-top{
+    width: 100%;
+    height: 50px;
+    background-color: #7b8788;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.reply-section-review .reply-cart .reply-cart-top .close-btn{
+    width: 70px;
+    height: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reply-section-review .reply-cart .reply-cart-top .close-btn button{
+    min-width: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #725dcf;
+    
+}
+.reply-section-review .reply-cart .reply-cart-top .close-btn button svg{
+    color: #fff;
+    font-size: 1.2em;
+}

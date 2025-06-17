@@ -1,0 +1,204 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+ .withdraw{
+  width: 100%;
+  height: 100%;
+  background-color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  
+} 
+ .withdraw .withdraw-table{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.withdraw-table .top{
+    width: 100%;
+    height: 10%;
+
+   
+}
+.withdraw-heading{
+    width: 100%;
+    height: 40px;
+    /* background-color: #aca5a5; */
+}
+.withdraw-heading .heading-top{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.withdraw-heading .heading-top span{
+    width: 30px;
+    height: 30px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.withdraw-heading .heading-top span svg{
+    font-size: 2em;
+    color: #000;
+}
+.withdraw-heading .heading-top h2{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #000;
+}
+.withdraw .withdraw-table .withdraw-top{
+    width: 100%;
+    height: 60px;
+     /* background-color: rgb(72, 123, 123);  */
+    display: flex;
+    gap: 15px;
+
+   
+   
+}
+.search-tab{
+    width: 300px;
+    height: 100%;
+    background-color: #ebf5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    
+}
+ .search-tab .search-input{
+    width: 95%;
+    height: 100%;
+  
+   
+    
+}
+ .search-tab .search-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: 0px;
+   font-size: 1.2em;
+}
+ .search-tab .search-icon{
+    width: 40px;
+    height: 100%;
+    background-color: rgb(225, 145, 164);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .search-tab .search-icon svg{
+    font-size: 1.6em;
+    color: #fff;
+}
+.withdraw .withdraw-table .withdraw-top .select-all{
+    width: 100px;
+    height: 100%;
+    background-color: #fffdfb;
+}
+.withdraw .withdraw-table .withdraw-top .exportbtn{
+    width: 100px;
+    height: 100%;
+}
+.withdraw .withdraw-table .withdraw-top .exportbtn .exbtn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #232929;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #fff;
+    
+}
+.exbtn svg{
+    color: #232929;
+}
+.withdraw .withdraw-table .request-table{
+    width: 100%;
+    height: 90% ;
+    background-color: #fff;
+     box-shadow: 0px 0px 2px 3px rgb(183, 186, 195);
+     border-radius: 10px;
+     
+    
+    
+}
+.request-table .main-table{
+    width: 100%;
+    height: 90%;
+    
+    box-sizing: border-box; 
+    overflow-y: scroll;
+    border-radius: 10px;
+    
+    
+}
+.withdraw .withdraw-table .request-table .main-table::-webkit-scrollbar{
+    width: 0px;
+}
+.withdraw .withdraw-table .request-table .main-table table .panding button{
+   background-color: #6f6262;
+   width: 100px;
+   color: #f1eded;
+
+}
+.withdraw .withdraw-table .request-table .main-table table{
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.withdraw .withdraw-table .request-table .main-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3; 
+    color: #232929;
+    z-index: 2;
+}
+.withdraw .withdraw-table .request-table .main-table table tbody{
+    height: 50px;
+    box-sizing: border-box;
+    
+}
+.withdraw .withdraw-table .request-table .main-table table tbody tr td{
+    padding: 10px;
+    color: #232929;
+}
+.ac-box button{
+    min-width: 30px;
+   width: 35px;
+   height: 35px;
+   border: 1px solid brown;
+   margin: 10px;
+}
+
+.ac-box button.hipen{
+    background-color: #b9e880;
+    
+}
+
+.ac-box button.hipen svg{
+    color: #232929;
+}

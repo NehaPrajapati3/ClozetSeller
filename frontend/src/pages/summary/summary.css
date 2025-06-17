@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.summary-sales-order-section{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.summary-sales-order-section .sso-box{
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+}
+.sso-box .sso-report{
+    width: 550px;
+    height: 100%;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sso-box button{
+    width: 200px;
+    height: 50px;
+    color: #929296;
+    font-weight: 550;
+    
+}
+button:focus{
+   color: #a5a7b0;
+    border-bottom: 3px solid #929296;
+}

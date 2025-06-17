@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.myshopinfo-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+.myshopinfo-section .myshopinfo-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+    overflow-y: scroll;
+}
+.myshopinfo-section .myshopinfo-header::-webkit-scrollbar{
+    width: 0px;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(76, 140, 140); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .myshopinfo-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: rgb(142, 95, 190); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .myshopinfo-heading .myshopinfo-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(182, 155, 155); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .myshopinfo-heading .myshopinfo-icon svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #303636;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .myshopinfo-heading h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #303636;
+
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .edit-provider-btn{
+    width: 250px;
+    height: 100%;
+    /* background-color: rgb(123, 123, 178); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .myshopinfo-top .edit-provider-btn button{
+    width: 200px;
+    height: 50px;
+    background-color: #6b7676;
+    font-size: 0.7em;
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box{
+    width: 100%;
+    height: 600px;
+    /* background-color: yellow; */
+    padding: 10px;
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info{
+
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #ede9e9;
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-banner{
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+   
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px ;
+    
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info  .myshop-cart{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    display: flex;
+    box-shadow: 0px 0px 2px 5px #f7f8f9;
+    border-radius: 10px;
+   
+    
+   
+    
+ }
+
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info  .myshop-cart .myshop-logo-box{
+    width: 200px;
+    height: 100%;
+    /* background-color: rgb(40, 77, 92); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-cart .myshop-logo-box .myshop-logo-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px #bfc3c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-cart .myshop-logo-box .myshop-logo-img img{
+    width: 100px;
+    height: 100px;
+   
+   
+} 
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-cart .myshop-right-details{
+    width: 300px;
+    height: 100%;
+    /* background-color: rgb(103, 198, 62); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+   
+}
+.myshopinfo-section .myshopinfo-header .myshop-banner-box .myshop-banner-info .myshop-cart .myshop-right-details p span{
+    color: #9ea4a7;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(178, 196, 147); */
+    padding: 10px;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    box-shadow: 0px 0px 2px 1px #ede9e9;
+    border-radius: 10px;
+
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-top .announcement-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #303636;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-top .announcement-heading h3{
+    color: #303636;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-top .announcement-switch-box{
+    width: 60px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-text-area{
+    width: 100%;
+    height: 170px;
+    /* background-color: red; */
+    padding: 10px;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .announcement-text-area textarea{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 2px 1px #d4cfcf;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .push-btn-box{
+    width: 100%;
+    height: 50px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.myshopinfo-section .myshopinfo-header .announcement-box .main-announcement .push-btn-box button{
+    width: 120px;
+    height: 40px;
+    background-color: #767c7e;
+    color: #fff;
+}

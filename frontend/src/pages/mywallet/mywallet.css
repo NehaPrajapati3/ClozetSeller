@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mywallet-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+.mywallet-section .mywallet-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    overflow-y: scroll;
+    padding: 10px;
+}
+.mywallet-header::-webkit-scrollbar{
+    width: 0px;
+}
+.mywallet-header .mywallet-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: skyblue; */
+}
+.mywallet-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.mywallet-heading .wallet-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallet-icon svg{
+   font-size: 2.1em;
+   color: #232929;
+}
+.mywallet-heading h2{
+    font-weight: 600;
+    color: #232929;
+}
+.mywallet-header .balance-box{
+    width: 100%;
+    height: 300px;
+    /* background-color: gray; */
+    display: flex;
+    padding: 10px;
+}
+.balance-box .able-balance{
+    width: 30%;
+    height: 100%;
+    /* background-color: skyblue; */
+    
+    padding: 10px;
+}
+.able-balance .w-a-b{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 223, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.w-a-b .w-ab-heading{
+    width: 100%;
+    height: 40px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-a-b .rupy{
+    width: 100%;
+    height: 100px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.rupy .rupy-img{
+    width: 60px;
+    height: 60px;
+    /* background-color: black; */
+}
+.rupy-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.w-a-b .r-w-heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: #5ada91; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.r-w-heading button{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    color: #232929;
+}
+.balance-box .pwct{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+.pwct .pw-box{
+    width: 100%;
+    height: 50%;
+    /* background-color: #232929; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+.pw-box  .cart1{
+    width: 50%;
+    height: 100%;
+    background-color: #e2eed8;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart1 .confirem-icon{
+    width: 100%;
+    height: 40px;
+    /* background-color: #dbb872; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirem-icon .zero{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cart1 .confirem-icon .pwct-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(213, 213, 228); */
+   
+    
+}
+.cart1 .confirem-icon .pwct-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.cart1 .confirem-info{
+    width: 100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top:15px;
+    
+}
+
+.cart1 .confirem-info  h4{
+    font-size: 1.1em;
+   
+    color:#1b5167;
+    margin-left: 10px;
+
+}
+/* czrt 2 */
+.pw-box  .cart2{
+    width: 50%;
+    height: 100%;
+    background-color: #eae9e8;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart2 .confirem-icon{
+    width: 100%;
+    height: 70px;
+    /* background-color: #dbb872; */
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.confirem-icon .zero{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cart2 .confirem-icon .pwct-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(213, 213, 228); */
+   
+    
+}
+.cart2 .confirem-icon .pwct-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.cart2 .confirem-info{
+    width: 100%;
+    height: 40px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    
+}
+
+.cart2 .confirem-info  h4{
+    font-size: 1.1em;
+   
+    color:#1b5167;
+    margin-left: 10px;
+
+}
+/* cart 3 */
+.pw-box  .cart3{
+    width: 50%;
+    height: 100%;
+    background-color: #e2efee;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart3 .confirem-icon{
+    width: 100%;
+    height: 40px;
+    /* background-color: #dbb872; */
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.confirem-icon .zero{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cart3 .confirem-icon .pwct-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(213, 213, 228); */
+   
+    
+}
+.cart3 .confirem-icon .pwct-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.cart3 .confirem-info{
+    width: 100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top:15px;
+    
+}
+
+.cart3 .confirem-info  h4{
+    font-size: 1.1em;
+   
+    color:#1b5167;
+    margin-left: 10px;
+
+}
+/* cart-4 */
+.pw-box  .cart4{
+    width: 50%;
+    height: 100%;
+    background-color: #e9e9f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart4 .confirem-icon{
+    width: 100%;
+    height: 40px;
+    /* background-color: #dbb872; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirem-icon .zero{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.cart4 .confirem-icon .pwct-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(213, 213, 228); */
+   
+    
+}
+.cart4 .confirem-icon .pwct-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.cart4 .confirem-info{
+    width: 100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top:15px;
+    
+}
+
+.cart4 .confirem-info  h4{
+    font-size: 1.1em;
+   
+    color:#1b5167;
+    margin-left: 10px;
+
+}
+
+/*  table */
+
+.wr-table-box{
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #bdb9b9;
+}
+.wr-table-box .wr-table-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: forestgreen; */
+}
+.wr-table-top .wr-table-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wr-table-box .main-wr-table{
+    width: 100%;
+    height: 600px;
+    /* background-color: #e2efee; */
+    overflow-y: scroll;
+}
+.main-wr-table::-webkit-scrollbar{
+    width: 0px;
+}
+.main-wr-table  table tbody tr td{
+    padding: 10px;
+    color: #232929;
+}
+.main-wr-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+   
+    color: #232929;
+}
+
+

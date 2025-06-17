@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.store-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+.store-section .store-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: orange; */
+    overflow-y: scroll;
+}
+.store-header::-webkit-scrollbar{
+    width: 0px;
+}
+.store-header .store-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: aliceblue; */
+
+}
+.store-top .store-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.store-heading .store-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-heading .store-icon svg{
+    font-size: 1.4em;
+}
+.store-heading h2{
+    font-weight: 600;
+    color: #232929;
+}
+.store-header .store-temporary{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-temporary .store-box{
+    width: 97%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px #7f7f8b;
+}
+.store-box .store-heading{
+    width: 300px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-heading .store-t-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-t-icon svg{
+   font-size: 1.4em;
+}
+.store-heading h3{
+    color: #677474;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.store-box .cl-btn{
+    width: 100px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-header .store-setting{
+    width: 100%;
+    height: 250px;
+    /* background-color: #677474; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-setting .store-setting-box{
+    width: 97%;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px #7f7f8b;
+}
+.store-setting-box .setting-box-top{
+  width: 100%;
+  height: 40px;
+  /* background-color: green; */
+
+}
+.setting-box-top .setting-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting-heading .setting-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.setting-icon svg{
+    font-size: 1.4em;
+    color: #677474;
+}
+.setting-heading h3{
+    color: #677474;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+.store-setting-box .set-on-off-box{
+    width: 100%;
+    height: 200px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.set-on-off-box .on-off-btn{
+    width: 400px;
+    height: 50px;
+    /* background-color: rgb(125, 125, 189); */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 0.5px solid #c5bcbc;
+
+}
+.on-off-btn .sh-or-heading{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.sh-or-heading .waring{
+    width: 20px;
+    height: 20px;
+    /* background-color: #677474;*/
+} 
+.on-off-btn .switch{
+    width: 50px;
+    height: 100%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-header .basic-setting{
+    width: 100%;
+    height: 330px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.basic-setting .basic-setting-main{
+    width: 97%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px #7f7f8b;
+}
+.basic-setting .basic-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    padding: 10px;
+}
+.basic-top .basic-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}.basic-heading .basic-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basic-icon svg{
+    font-size: 1.4em;
+    color: #677474;
+}
+.basic-heading h3{
+    color: #677474;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+.basic-setting .box-main{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+}
+.basic-setting .box-main .minimum-box{
+    width: 35%;
+    height: 100px;
+    /* background-color: rgb(31, 202, 96); */
+   
+}
+.minimum-box  .mini-heading{
+    width: 300px;
+    height: 50px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mini-heading .mini-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-icon svg{
+    font-size: 1.4em;
+}
+.minimum-box .mini-input{
+    width: 100%;
+    height: 50px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-input input{
+    width: 500px;
+    height: 100%;
+    outline: none;
+    border: 0.5px solid #988e8e;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.approx-box{
+    width: 35%;
+    height: 100px;
+    /* background-color: rgb(31, 202, 96); */
+    
+}
+.approx-box  .mini-heading{
+    width: 300px;
+    height: 50px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.approx-box .mini-heading .mini-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.approx-box .mini-heading .mini-icon svg{
+    font-size: 1.4em;
+}
+.approx-box .mini-input{
+    width: 100%;
+    height: 50px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.approx-box .mini-input input{
+    width: 150px;
+    height: 100%;
+    outline: none;
+    border: 0.5px solid #988e8e;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.mini-input .s-time{
+    width: 150px;
+    height: 100%;
+
+}
+.basic-setting .gst{
+    width: 100%;
+    height: 100px;
+    /* background-color: skyblue; */
+}
+.gst .gst-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+} 
+.gst-box .gst-heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: #988e8e; */
+    display: flex;
+    justify-content: space-between;
+}
+.gst-heading .heading{
+    width: 100px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.heading .gst-icon{
+    width: 20px;
+    height: 20px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gst-heading .gst-switch{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gst-box .gst-input{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+}
+.gst-input input{
+    width: 93%;
+    height: 100%;
+    outline: none;
+    border: 0.5px solid #988e8e;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.basic-setting-main .ru-btn{
+    width: 100%;
+    height: 50px;
+    /* background-color: #232929; */
+    display: flex;
+    justify-content: flex-end;
+}
+.ru-btn .ru-btn-main{
+    width: 250px;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.ru-btn-main .rst-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d4d0e8;
+    color: #232929;
+    font-weight: 550;
+}
+.ru-btn-main .upd-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #aba4a4;
+    color: #fff;
+}
+.store-header .time-schedule{
+    width: 100%;
+    height: 650px;
+    /* background-color: gray; */
+    padding: 15px;
+}
+.time-schedule .time-schedule-box{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px #7f7f8b;
+}
+
+
+.time-schedule-box .time-sh-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: green; */
+}
+.time-sh-top .time-sh-heading{
+    width: 300px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-sh-heading .time-sh-icon{
+    width: 30px;
+    height: 30px;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-schedule-box .days-box{
+    width: 100%;
+    height: 550px;
+    /* background-color: burlywood; */
+}
+.days-box .day-lines{
+    width: 100%;
+    height: 550px;
+    /* background-color: yellow; */
+    display: flex;
+}
+.day-lines table{
+    width: 100%;
+    height: 100%;
+    
+}
+table tr .th-w{
+    width: 150px;
+    align-items: center;
+    color: #394141;
+}
+
+table tr td .add-days{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.add-days .plus .lu-btn{
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(159, 166, 173);
+    color: #fff;
+}
+table tr .offday{
+    width: 80px;
+    height: 40px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: red;
+}
+.offday p{
+    font-weight: 600;
+}

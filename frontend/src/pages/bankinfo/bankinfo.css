@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bank-info-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+.bank-info-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: chocolate; */
+}
+.bank-info-header .bank-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: aliceblue; */
+}
+.bank-top .bank-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: #a18b7b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.bank-heading .bank-icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: blue; */
+}
+.bank-icon img{
+    width: 100%;
+    height: 100%;
+}
+.bank-heading h2{
+    font-weight: 600;
+    color: #232929;
+}
+.bank-info-header .bank-info-cart{
+    width: 100%;
+    height: 560px;
+    /* background-color: rgb(214, 234, 214); */
+    padding: 15px;
+    
+}
+.bank-info-cart .bank-cart-box{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #c4b6b6;
+}
+.bank-cart-box .bank-cart-top{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+    border-bottom: 0.5px solid rgb(138, 126, 126);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bank-cart-top .bank-add-btn{
+    width: 350px;
+    height: 80px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bank-add-btn button{
+    width: 300px;
+    height: 70px;
+    background-color: #7b8788;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 550;
+}
+.bank-cart-box .holder-cart-box{
+    width: 100%;
+    height: 420px;
+    /* background-color: skyblue; */
+    padding: 20px;
+}
+.holder-cart-box .holder-cart{
+    width: 50%;
+    height: 100%;
+    background: url('../bgimage/bankcart.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 0px 3px #dce3dc;
+    border-radius:10px;
+}
+.holder-cart .holder-top{
+    width: 100%;
+    height: 70px;
+    /* background-color: rebeccapurple; */
+    border-bottom: 1px solid #7d8889;
+
+}
+.holder-top .holder-heading{
+    width: 250px;
+    height: 100%;
+    /* background-color: pink; */
+    
+}
+.holder-heading h2{
+    line-height: 70px;
+    text-align: center;
+    font-weight: 550;
+    color: #7d8889;
+
+}
+.holder-cart .holder-data-info{
+    width: 100%;
+    height: 330px;
+    
+}
+.holder-data-info .bank-name{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    
+}
+.bank-name .bank-name-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.bank-name-heading h3{
+    font-size: 25px;
+}
+.bank-name-heading p{
+    font-size: 20px;
+    color: #7d8889;
+}
+.bank-name .print-name{
+    width: 300px;
+    height: 100%;
+    /* background-color: green; */
+    
+}
+.print-name h3{
+   line-height: 80px;
+}
+/* edit bank form */
+
+.editbank-info{
+    width: 100%;
+    height: 100%;
+    background-color: #3f4d4d64;
+   
+    position: relative;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.editbank-info .editcart{
+    width: 600px;
+    height: 330px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    
+  
+   
+}
+.editcart .edit-top{
+    width: 100%;
+    height: 50px;
+    /* background-color: #7b8788; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.edit-top .edit-heading{
+    width: 150px ;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-heading h3{
+    
+    font-weight: 500;
+}
+.edit-top .closebtn{
+    width: 70px;
+    height: 100%;
+    /* background-color: skyblue; */
+    
+}
+.closebtn button{
+    min-width: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #7d8889;
+    
+}
+button svg{
+    color: #fff;
+}
+.editcart .edit-bank-form{
+    width: 100%;
+    height: 300px;
+    /* background-color: burlywood; */
+}
+.edit-bank-form .part1{
+    width: 100%;
+    height: 100px;
+    /* background-color: orangered; */
+    display: flex;
+}
+.edit-bank-form .part1 .n-lable{
+    width: 50%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.n-lable .m-lable{
+    width: 150px;
+    height: 30px;
+    /* background-color:lemonchiffon ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.n-lable .b-input{
+    width: 250px;
+    height: 40px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-input input{
+    width: 200px;
+    height: 100%;
+    outline: none;
+    border: 0.5px solid #938686;
+    border-radius: 5px;
+}
+.edit-bank-form .partbtn{
+    width: 100%;
+    height: 60px;
+    /* background-color: #232929; */
+    display: flex;
+    justify-content: flex-end;
+}
+.partbtn .ru-btn-main{
+    width: 250px;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ru-btn-main .rst-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d4d0e8;
+    color: #232929;
+    font-weight: 550;
+}
+.ru-btn-main .upd-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #aba4a4;
+    color: #fff;
+}

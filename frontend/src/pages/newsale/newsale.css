@@ -1,0 +1,385 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.newsale-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.newsale{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(174, 70, 70); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: scroll;
+
+    
+    
+}
+.newsale::-webkit-scrollbar{
+    width: 0px;
+}
+.newsale .product-left{
+    width: 58%;
+    height: 100% ;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 0px 4px 2px #cfc7c7;
+    border-radius: 10px;
+    
+}
+.newsale .product-left .product-heading{
+    width: 100%;
+    height: 50px;
+    background-color: #dfedf9;
+    box-shadow: 0px 0px 5px #bad2e8;
+    border-radius: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+.newsale .product-left .product-heading h3{
+    line-height: 50px;
+    color: #292929;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.newsale .product-left .product-heading svg{
+    font-size: 1.5em;
+}
+.newsale .product-left .select-items{
+    width: 100%;
+    height: 60px;
+   /* background-color: #5f5656; */
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.newsale .product-left .select-items  .select-menu{
+    width: 50%;
+    height: 100%;
+}
+.newsale .product-left .select-items  .select-menu .f-bg{
+    border: 1px solid #fff;
+    
+}
+.newsale .product-left .select-items  .select-menu .s-bg{
+    color: #232929;
+}
+
+.newsale .product-left .select-items  .all-categries{
+    width: 50%;
+    height: 100%;
+}
+.newsale .product-left .select-items  .all-categries .f-bg{
+    border: 1px solid #fff;
+    
+}
+.newsale .product-left .select-items  .all-categries .s-bg{
+    color: #232929;
+}
+.newsale .product-left .search-tab{
+    width: 100%;
+    height: 50px;
+    /* background-color: #bad2e8; */
+    display: flex;
+    border-radius: 5px;
+    
+    margin-right: 20px;
+    
+}
+.newsale .product-left .search-tab .search-input{
+    width: 100%;
+    height: 100%;
+    
+   
+
+  
+   
+    
+}
+.newsale .product-left .search-tab .search-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+     
+    border: 0px;
+   font-size: 1.2em;
+}
+.newsale .product-left .search-tab .search-icon{
+    width: 40px;
+    height: 100%;
+    background-color: rgb(225, 145, 164);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsale .product-left .search-tab .search-icon svg{
+    font-size: 1.6em;
+    color: #fff;
+}
+
+.newsale .product-left .no-product{
+    width: 100%;
+    height: 450px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.newsale .product-left .no-product .see-products{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0px 1px 2px #e1dddd;
+}
+
+.see-products .main-or-table{
+    width: 100%;
+    height: 510px;
+    /* background-color: #fff; */
+    overflow-y: scroll;
+}
+.see-products .main-or-table::-webkit-scrollbar{
+    width: 0px;
+}
+.see-products .main-or-table table tbody tr td{
+    padding: 10px;
+    color: #232929;
+}
+.see-products .main-or-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;   
+    z-index: 3;
+    color: #232929;
+}
+
+/*  billing section */
+
+.newsale .billing-right{
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 2px #cfc7c7;
+    border-radius: 10px;
+
+}
+.newsale .billing-right .billing-heading{
+    width: 100%;
+    height: 50px;
+    background-color: #dfedf9;
+    box-shadow: 0px 0px 5px #bfd5ea;
+    border-radius: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+.newsale .billing-right .billing-heading h3{
+    line-height: 50px;
+    color: #292929;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.newsale .billing-right .billing-heading svg{
+    font-size: 1.5em;
+}
+.newsale .billing-right .select-customer{
+    width: 100%;
+    height: 55px;
+     /* background-color: #fdfdfd;  */
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.newsale .billing-right .select-customer .customer{
+    width: 50%;
+    height: 100%;
+}
+.newsale .billing-right .select-customer .customer .f-bg{
+    border: 1px solid #fff;
+}
+.newsale .billing-right .select-customer .customer .s-bg{
+    color: #232929;
+}
+.newsale .billing-right .select-customer .add-customer{
+    width: 40%;
+    height: 100%;
+    /* background-color: #616e7b; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.newsale .billing-right .select-customer .add-customer .customer-btn{
+    min-width: 40px !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #8d909c !important;
+    color: #fefdfd;
+    font-size: 1em;
+    gap: 5px;
+    
+}
+.newsale .billing-right .delivery-info{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.newsale .billing-right .delivery-info .home-deli{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(190, 147, 231); */
+    gap: 5px;
+   
+
+}
+.newsale .billing-right .delivery-info .home-deli span{
+    color: #a6aab8;
+}
+.newsale .billing-right .delivery-info .pen{
+    width: 40px;
+    height: 100%;
+    /* background-color: #616e7b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.newsale .billing-right .table-bill{
+
+    width: 100%;
+    height: 340px;
+}
+
+.newsale .billing-right .table-bill .cart-table {
+    width: 100%;
+    border: 2px solid black;
+    height: 300px;
+    background-color: #f4faf7;
+    padding: 10px 20px;
+   
+    
+    
+  } 
+  .newsale .billing-right .table-bill .cart-table .thead-border{
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #454343;
+    background-color: #bfd5ea;
+    box-shadow: inset 0px 0px 10px 2px rgb(79, 87, 124);
+  }
+  .newsale .billing-right .table-bill .cart-table  .table-btn{
+    padding: 4px 6px;
+    background-color: #9b57db;
+    color: #fff;
+    outline: none;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .newsale .billing-right .table-bill .cart-table .cartbill{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 500;
+    border: 0px;
+  }
+.newsale .billing-right .pay-method{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.newsale .billing-right .place-cart{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.newsale .billing-right .place-cart .placebtn{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.newsale .billing-right .place-cart .placebtn .pbtn{
+    width: 100%;
+    height: 100%;
+    background-color:#8d909c ;
+    font-size: 1.1em;
+    color: #fff;
+}
+.newsale .billing-right .place-cart .clean-cart{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsale .billing-right .place-cart .clean-cart .cbtn{
+    width: 100%;
+    height: 100%;
+    background-color:#dce0f5 ;
+    font-size: 1.1em;
+    color: #000;
+}

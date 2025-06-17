@@ -1,0 +1,279 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.expensereport-section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+.expensereport-section .expensereport-header{
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+    overflow-y: scroll;
+}
+.expensereport-header::-webkit-scrollbar{
+    width: 0px;
+}
+.expensereport-header .expensereport-top{
+    width: 100%;
+    height: 120px;
+    /* background-color: orange; */
+}
+.expensereport-top .expensereport-top-heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: gray; */
+}
+.expensereport-top-heading .expensereport-heading{
+    width: 280px;
+    height: 100%;
+    /* background-color: rgb(124, 94, 154); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.expensereport-heading .expensereport-icon{
+    width: 50px;
+    height: 50px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expensereport-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.expensereport-heading h2{
+    font-weight: 600;
+    color: #232929;
+}
+.expensereport-top .expense-para{
+    width: 60%;
+    height: 70px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expense-para .main-para{
+    width: 82%;
+    height: 100%;
+    /* background-color: rgb(50, 205, 195); */
+    text-align: start;
+    color: #a5a7b0;
+    font-weight: 600;
+}
+.expensereport-header .search-data-box{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(67, 89, 98); */
+    padding: 10px;
+}
+.search-data-box .alldata-search{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #798989;
+    border-radius: 10px;
+}
+.alldata-search .all-data-top{
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+}
+.all-data-top .all-data-top-heading{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightsalmon; */
+
+}
+.all-data-top-heading h3{
+   
+    color: #232929;
+}
+.search-data-box .all-data-boxs1{
+    width: 100%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.all-data-boxs1 .select-menu{
+    width: 350px;
+    /* background-color: #fff; */
+}
+.search-data-box .all-data-boxs2{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(92, 194, 184); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-data-boxs2 .select-menu{
+    width: 25%;
+    /* background-color: #fff; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.all-data-boxs2 .select-menu .f-bg{
+    width: 350px;
+   
+   
+}
+.all-data-boxs2 .filter-box{
+    width: 390px;
+    height: 40px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-box .fill-btn{
+    width: 350px;
+    height: 100%;
+    background-color: rgb(75, 75, 229);
+    color: #fff;
+
+}
+.expensereport-header .expense-table-box{
+    width: 100%;
+    height: 650px;
+    /* background-color: #325e94; */
+    padding: 10px;
+}
+.expense-table-box .expense-table{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #798989;
+    border-radius: 10px;
+}
+.expense-table .expense-table-top{
+    width: 100%;
+    height: 60px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.expense-table-top .expenselist-heading{
+    width: 200px;
+    height: 100%;
+    /* background-color: #7171c7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.expense-table-top .expenselist-heading h3{
+    color: #232929;
+}
+.expense-table-top .expenselist-heading span{
+    width: 20px;
+    height: 40%;
+    background-color: #eeeef4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.expense-table-top  .s-btn{
+    width: 480px;
+    height: 100%;
+    /* background-color: rgb(221, 187, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.expense-table-top .s-btn .s-input{
+    width: 300px;
+    height: 40px;
+    /* background-color: rgb(179, 108, 187); */
+    display: flex;
+   
+    
+}
+.expense-table-top .s-btn .s-input input{
+    width: 260px;
+    height: 100%;
+    outline: none;
+    border: 0px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 10px;
+   box-shadow:  0px 0px 3px 0.5px #bcb6b6;
+   font-size: 1em;
+   
+}
+.expense-table-top .s-btn .s-input .icon-s{
+    width: 40px;
+    height: 100%;
+    background-color: #7d7474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.expense-table-top .s-btn .s-input .icon-s svg{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+.expense-table-top .t-top .s-btn .ex-select{
+    width: 100px;
+    height: 40px;
+    
+}
+.expense-table-top .s-btn .ex-select .e-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    color: #000000;
+    box-shadow: 0px 0px 5px 0.5px #c6bfbf;
+    background-color: #fff;
+    
+}
+.expense-table .mexpense-table{
+    width: 100%;
+    height: 560px;
+    /* background-color: lightgreen; */
+    overflow-y: scroll;
+
+}
+.mexpense-table::-webkit-scrollbar{
+    width: 0px;
+}
+
+.mexpense-table table thead{
+    height: 55px;
+    position: sticky;
+    top: 0px;
+    background-color: #d4e4f3;  
+   z-index: 3;
+    color: #232929;
+}
+.mexpense-table table tbody tr{
+    text-align: center;
+}
+.mexpense-table table tbody tr td{
+    padding: 10px;
+}
