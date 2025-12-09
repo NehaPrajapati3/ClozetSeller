@@ -16,6 +16,17 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
+  const autofillSeller = () => {
+    setUser({
+      email: "seller3@gmail.com",
+      password: "123",
+      role: "seller",
+    });
+  };
+
+ 
+
+
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     console.log("outside log in try{}");
@@ -93,6 +104,22 @@ const Login = () => {
               <p>
                 Don't you have account?<Link to="/register">Signup</Link>
               </p>
+            </div>
+            <div className="flex justify-center flex-col mt-4">
+              <p className="text-center font-semibold">Auto-Fill Credentials</p>
+
+              <div className="flex justify-center mt-2">
+                <button
+                  type="button"
+                  onClick={autofillSeller}
+                  className="btn btn-sm p-1 px-3 mx-2 hover:bg-green-500 hover:text-white bg-green-400 
+                 transition-all border rounded-md border-slate-700"
+                >
+                  Autofill Seller
+                </button>
+
+               
+              </div>
             </div>
           </form>
         </div>

@@ -72,7 +72,7 @@ export const getAll = async (req, res) => {
        model: "Product",
        populate: {
          path: "userId",
-         model: "User",
+         model: "SellerUserAuth",
        },
      })
      .lean();
